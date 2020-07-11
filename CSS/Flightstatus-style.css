@@ -1,0 +1,80 @@
+.boxsize {
+    
+   margin-left: 10%;
+    text-align:justify;
+    width:  250px;
+    color: rebeccapurple;
+/*    background: black;*/
+}form{
+    width: 100%;
+    height:500px;
+}
+.flstatus{
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    z-index: 0;
+  text-align: center;
+    color: olivedrab;
+    font-family: cursive;
+}
+legend
+    {
+        text-align: center;
+        font-size: 50px;
+       color: #F02339;
+    }
+    body
+    {
+        background-color: aliceblue;
+        text-align:center;
+       
+}
+.textbox1 input{
+    width: 100%;
+    margin-top: 12px;
+    font-size: 25px;
+border-bottom: 2px solid green;
+    background: none;
+    color: whitesmoke;
+}
+.textbox2 input{
+   width: 100%;
+    margin-top: 12px;
+    font-size: 25px;
+
+border-bottom: 2px solid green;
+    background: none;
+    color: whitesmoke;
+}
+.searchbutton input{
+    width: 150px;
+    
+    background-color: rebeccapurple;
+    font-weight: 600;
+	text-decoration: none;
+	color: white;
+    margin-left: 15%;
+    font-size: 20px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+    
+.alignvideo video{
+    position: relative;
+    margin-top: -15%;
+    margin-left: 50%;
+}
+ @media  only screen and (min-width:0px) and (max-width:360px){
+            .flstatus{
+                font-size: 7.6vw;
+            }
+     .alignvideo{
+     
+         margin-top: 70px;
+       
+     }
+   
+

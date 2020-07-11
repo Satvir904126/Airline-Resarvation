@@ -1,0 +1,58 @@
+ legend
+    {
+        text-align: center;
+        font-size: 30px;
+       color: #F02339;
+    }
+    fieldset
+    {
+        background-color: aliceblue;
+        text-align:center;
+    }
+    .Value2
+    {
+        display: flex;
+        padding-left: 12px;
+        
+    }
+.Value2 input{
+    margin: 5px;
+    border: none;
+    height: 30px;
+    width: 255px
+    
+}
+    
+       ul {
+	list-style: none;
+	margin: 0 0 50px;
+	padding: 0;
+}
+
+.list li {
+    background-color: #F02339;
+    text-decoration-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+    margin-left: 45%;
+}
+.buttoninline{
+    	display:flex;
+       justify-content: center;
+    text-align: center;
+}
+
+   li a:link{
+    
+         
+        	color: black;
+        padding: 5px 10px;
+        font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+ a:hover{
+    color: red;
+}

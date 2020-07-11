@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Mainpage.CSS">
+    <link rel="stylesheet" href="CSS/flightbooking-style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <!-- top heading picture with navigation bar      -->
+    <header class="header-position">
+        <nav>
+            <div class="logo-links">
+                <img src="Images/LOGO.png" width="200px" height="100px">
+                <div class="listnav">
+                    
+                    <a href="index.html">Home</a>
+
+                    <a href="Sign%20In.html">Sign In </a>
+                    <a href="Flight_Status.html">Flight Status</a>
+                    <a  href="Book.html">Flight Info</a>
+                    <a href="customer_Support.html">Customer Support</a>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  Script for fixwd heading white on top      -->
+    <script type="text/javascript">
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('white');
+            } else {
+                $('nav').removeClass('white');
+            }
+        })
+    </script>
+
+    <!--Body after navigation with picture in gallary    -->
+
+    <section>
+        <div>
+            <h2 class=" welcome">Welcome to SkyUp Airlines </h2>
+        </div>
+        <div class="welcome-image">
+            <img src="Images/header.jpg" alt="section image first">
+        </div>
+        <!--       Flight booking section-->
+        <fieldset class="list">
+            <legend><strong>Flight Booking</strong></legend>
+            <br>
+
+            <input type="radio" name="aff"><label for="One-way"><strong>One-Way</strong></label>
+
+            <input type="radio" name="aff" Checked><label for="female"><strong>Round-Trip</strong></label>
+            <input type="radio" name="aff" Checked><label for="others"><strong>Multi-City</strong></label>
+
+            <br>
+            <br>
+        </fieldset>
+        <fieldset class="Value2">
+            <form action="">
+                <input type="text" placeholder="FROM" value="" required>
+                <input type="text" placeholder="TO" value="" required>
+                <input type="date" min="2019-11-21" placeholder="SELECT TRAVEL DATE" value="" required>
+                <br>
+                <br>
+                <input type="text" placeholder="ADULT" value="" required>
+                <input type="text" placeholder="PROMOTION CODE" value="" required>
+                <br>
+                <br>
+                <br>
+
+
+                <div class="buttoninline">
+                    <ul>
+                        <li><a href="index.html" title="sign up"><strong>Book flight</strong></a></li>
+                        <li><button type="reset" value="Reset">RESET INFO</button></li>
+                    </ul>
+                </div>
+            </form>
+        </fieldset>
+
+
+
+        <!--more picture  -->
+        <h2 class="text">Picture Galary</h2>
+        <div>
+            <div class="inline">
+                <div class="block">
+                    <img class="first" src="Images/navImage.jpg" alt="first picture">
+
+                    <img class="forth" src="Images/fly.jpg" alt="forth image">
+                </div>
+
+                <img class="second" src="Images/seates.jpg" alt="second image">
+                <div class="block">
+                  
+                    <img class="third" src="Images/watingroom.jpg" alt="third image">
+
+                    <img class="fifth" src="Images/unloading.jpg" alt="fifth image">
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+<div style="display: flex">
+        <div class="aboutus">
+
+            <div class="foot1">
+            
+            <h>About Us</h>
+            <p> Air Canda Dusters in 1925 has now grown into one of the world’s largest global airlines, helping more than 180 million travelers get to the places they want to go to each year.</p>
+        </div>
+</div>
+
+        <div class="Contact">
+            <h>Contact Info</h>
+
+            <p>1234 Altschul, New York, NY 10027-0000
+                <br>
+                +1 987 654 0001
+                <br>
+                abc.xyx@hotmail.com
+            </p>
+
+        </div>
+        </div>
+        <div class="cpyryt">
+            <img src="Images/facebook.png" alt="fb" width="30px" height="30px">
+            <img src="Images/whatsaap.png" alt="watsaap" width="30px" height="30px">
+            <img src="Images/insta.png" alt="insta" width="30px" height="30px">
+            <p>
+                &copy;all rights are reserved by Rajveer &amp; Samar
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>
